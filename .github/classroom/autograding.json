@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Push to a Remote Git Repository",
+      "setup": "",
+      "run": "echo \"Pushed to Remote Git Repository\" --quiet",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "patientSignUp.py prints the correct sign-up message",
+      "setup": "pip install pytest",
+      "run": "pytest tests/patientSignUp_test.py::test_patientSignUp_message",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "patientSignUp.py uses the input() function",
+      "setup": "pip install pytest",
+      "run": "pytest tests/patientSignUp_test.py::test_patientSignUp_input_usage",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "patientSignUp.py uses variables",
+      "setup": "pip install pytest",
+      "run": "pytest tests/patientSignUp_test.py::test_patientSignUp_variable_usage",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "patientSignUp.py prints the user's name and age correctly",
+      "setup": "pip install pytest",
+      "run": "pytest tests/patientSignUp_test.py::test_patientSignUp_print_variables",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
